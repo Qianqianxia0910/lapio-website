@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Assuming a standard text color as seen in the image */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Assuming a light grey background as seen in the image */
+}
+h1 {
+    color: #000080; /* Navy blue color for the main heading, assuming based on the image */
+}
+a:link, a:visited {
+    color: #800000; /* Maroon color for links, assuming based on the image */
+}
+ul {
+    color: #0000FF; /* This will set the color of the text in the ul to blue */
+}
+
+ul li {
+    color: #FF0000; /* This will set the color of the text in the li to red */
+}
+
+/* If you have nested lists and want to style them differently, you can do something like this: */
+ul li ul li {
+    color: #00FF00; /* This will set the color of the text in the nested li to green */
+}
+p {
+    color: darkgoldenrod; /* Standard text color */
+}
+img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Keep aspect ratio */
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd; /* Light grey background for footer */
+    color: #333; /* Standard text color */
+}
