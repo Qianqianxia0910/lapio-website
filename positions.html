@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligned Elements</title>
+    <style>
+        .container {
+    display: flex; /* Use flexbox to align elements side by side */
+}
+
+.box {
+    flex: 1; /* Each box will take an equal amount of space */
+    color: white; /* Text color */
+    padding: 20px; /* Some padding inside the boxes */
+    margin: 10px; /* Margin around the boxes */
+    text-align: center; /* Center the text horizontally */
+    vertical-align: middle; /* Center the text vertically */
+    display: flex; /* Use flexbox for centering text vertically */
+    justify-content: center; /* Horizontal centering of text for flexbox */
+}
+
+#first {
+    background-color: red; /* Red background for the first element */
+}
+
+#second {
+    background-color: yellow; /* Yellow background for the second element */
+    color: black; /* Text color for better contrast */
+}
+
+#third {
+    background-color: green; /* Green background for the third element */
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="first">First element</div>
+        <div class="box" id="second">Second element</div>
+        <div class="box" id="third">Third element</div>
+    </div>
+</body>
+</html>
