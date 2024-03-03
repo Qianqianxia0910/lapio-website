@@ -5,33 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aligned Elements</title>
     <style>
-        .container {
+/* This is styles.css */
+
+.container {
     display: flex; /* Use flexbox to align elements side by side */
+    justify-content: center; /* Center the boxes in the container */
 }
 
 .box {
-    flex: 1; /* Each box will take an equal amount of space */
+    flex: 0 0 20%; /* Give each box a width of 20% of the container */
     color: white; /* Text color */
     padding: 20px; /* Some padding inside the boxes */
     margin: 10px; /* Margin around the boxes */
     text-align: center; /* Center the text horizontally */
-    vertical-align: middle; /* Center the text vertically */
     display: flex; /* Use flexbox for centering text vertically */
     justify-content: center; /* Horizontal centering of text for flexbox */
+    align-items: center; /* Vertical centering of text for flexbox */
+    text-transform: uppercase; /* Capitalize all letters */
+    border: 4px solid; /* Border around the boxes */
 }
 
 #first {
     background-color: red; /* Red background for the first element */
+    border-color: green; /* Green border for the first element */
 }
 
 #second {
     background-color: yellow; /* Yellow background for the second element */
     color: black; /* Text color for better contrast */
+    border-color: red; /* Red border for the second element */
 }
 
 #third {
     background-color: green; /* Green background for the third element */
+    border-color: yellow; /* Yellow border for the third element */
 }
+
     </style>
 </head>
 <body>
